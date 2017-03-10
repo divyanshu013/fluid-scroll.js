@@ -62,6 +62,8 @@
         }
     }
 
+    // TODO focus API
+
     fscroll.focus = function (target) {
         if(typeof(target) === 'string')   {
             scrollNow(target);
@@ -70,6 +72,8 @@
             console.error('target not a string');
         }
     }
+
+    // TODO crisp API
 
     fscroll.crisp = function (target) {
         if(typeof(target) === 'string')   {
